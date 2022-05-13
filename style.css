@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+  background: lightblue;
+}
+p {
+  color: black;
+}
+h1 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+p {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.menu-button {
+  float: right;
+  background: none;
+  border: none;
+  padding: 3px;
+  transition: 0.5s;
+}
+
+.header {
+  background: #e8eaed;
+  padding: 0.1px;
+  box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -moz-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+}
+
+.home-page-main {
+  background: #e8eaed;
+  height: 100px;
+  margin-top: 10px;
+  box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -moz-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+}
+
+.menu-button:hover {
+  background: rgba(66, 135, 245, 0.5);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact {
+  background: #e8eaed;
+  height: 200px;
+  margin-top: 10px;
+  box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -webkit-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+  -moz-box-shadow: 7px 4px 8px -1px rgba(0,0,0,0.39);
+}
+
+.name {
+  display: flex;
+  margin: auto;
+  width: 250px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px black solid;
+  margin-bottom: 10px;
+  background: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+.Email {
+  display: flex;
+  margin: auto;
+  width: 250px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 1px black solid;
+  margin-bottom: 10px;
+  background: none;
+  text-align: center;
+}
+
+.submit {
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  border: none;
+  background: none;
+  transition: 0.5s;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background: rgba(66, 135, 245);
+  transition: 0.5s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #e8eaed;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+}
